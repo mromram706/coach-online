@@ -1,5 +1,4 @@
-// Importa el módulo 'path' al principio del archivo
-import path from "path";
+const path = require("path");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -21,4 +20,4 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
