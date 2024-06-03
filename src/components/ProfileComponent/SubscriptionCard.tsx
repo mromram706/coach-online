@@ -116,7 +116,7 @@ const SubscriptionCard: React.FC<SubscriptionCardProps> = ({ subscription, plans
                 }}
               >
                 <Typography variant="body1">
-                  {intl.formatMessage({ id: "profile.expirationDate" })}:{" "}
+                  {intl.formatMessage({ id: "profile.expirationDate" })}{" "}
                   {expirationDate.toLocaleDateString()}
                 </Typography>
                 <Typography variant="body1">
