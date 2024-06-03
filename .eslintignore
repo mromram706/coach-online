@@ -1,0 +1,4 @@
+# documentation
+doc/
+# next config
+next-env.d.ts
