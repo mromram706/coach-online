@@ -4,18 +4,12 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "public": "public",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
+    "public": ".next",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
     ]
-  },
-  "functions": {
-    "source": "nextjs-functions",
-    "codebase": "nextjs-functions"
   },
   "storage": {
     "rules": "storage.rules"

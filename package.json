@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next build",
     "lint": "eslint .\\**\\*.{js,jsx,ts,tsx} --fix",
     "format": "prettier --write '*/**/*.{js,jsx,ts,tsx,json,css,md}'"
   },
@@ -23,6 +22,8 @@
     "@types/firebase": "^3.2.1",
     "date-fns": "^3.6.0",
     "firebase": "^10.11.1",
+    "firebase-admin": "^12.1.1",
+    "firebase-functions": "^5.0.1",
     "flag-icons": "^7.2.2",
     "framer-motion": "^11.0.25",
     "i18n-iso-countries": "^7.11.2",
