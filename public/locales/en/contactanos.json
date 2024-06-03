@@ -1,0 +1,16 @@
+{
+  "contactanos.title": "Contact Us",
+  "contactanos.description": "Thank you for visiting our contact page!",
+  "contactanos.form.instructions": "Please complete the following form to get in touch with us:",
+  "contactanos.form.name": "Name",
+  "contactanos.form.email": "Email",
+  "contactanos.form.message": "Message",
+  "contactanos.form.submit": "Send",
+  "contactanos.info.title": "Contact Information",
+  "contactanos.info.address": "Address: P.º de la Estación, 44, 23008 Jaén, Spain",
+  "contactanos.info.phone": "Phone: +1 (234) 567-8901",
+  "contactanos.info.email": "Email: contacto@empresa.com",
+  "contactanos.social.facebook": "Facebook",
+  "contactanos.social.twitter": "Twitter",
+  "contactanos.social.instagram": "Instagram"
+}

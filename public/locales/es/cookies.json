@@ -1,0 +1,16 @@
+{
+  "cookieConsent.message": "Utilizamos cookies para mejorar tu experiencia en nuestro sitio web.",
+  "cookieConsent.customize": "Personalizar",
+  "cookieConsent.settings": "Configuración de cookies",
+  "cookieConsent.acceptAll": "Aceptar todas las cookies",
+  "cookieConsent.settingsTitle": "Configuración de Cookies",
+  "cookieConsent.description": "Utilizamos cookies para mejorar tu experiencia en nuestro sitio web. A continuación, puedes personalizar tus preferencias de cookies:",
+  "cookieConsent.analytics": "Cookies de análisis",
+  "cookieConsent.analyticsDescription": "Estas cookies nos permiten analizar el uso de nuestro sitio web para mejorar su rendimiento y experiencia de usuario.",
+  "cookieConsent.marketing": "Cookies de marketing",
+  "cookieConsent.marketingDescription": "Estas cookies se utilizan para mostrarte anuncios relevantes y personalizados según tus intereses.",
+  "cookieConsent.moreInfo": "Para más información sobre el uso de cookies, por favor visita nuestra",
+  "cookieConsent.privacyPolicy": "Política de Privacidad",
+  "cookieConsent.cancel": "Cancelar",
+  "cookieConsent.savePreferences": "Guardar preferencias"
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "name": "plan.name.initial",
+    "price": 20,
+    "perUserPerMonth": false,
+    "planId": "initial",
+    "features": [{ "name": "feature.planTraining" }, { "name": "feature.supportCall" }]
+  },
+  {
+    "name": "plan.name.basic",
+    "price": 30,
+    "perUserPerMonth": true,
+    "planId": "basic",
+    "features": [
+      { "name": "feature.planTraining" },
+      { "name": "feature.supportCall" },
+      { "name": "feature.videoConference" }
+    ]
+  },
+  {
+    "name": "plan.name.pro",
+    "price": 100,
+    "perUserPerMonth": true,
+    "planId": "pro",
+    "features": [
+      { "name": "feature.planTraining" },
+      { "name": "feature.supportCall" },
+      { "name": "feature.videoConference" },
+      { "name": "feature.basicFollowUp" }
+    ]
+  },
+  {
+    "name": "plan.name.premium",
+    "price": 998,
+    "perUserPerMonth": false,
+    "planId": "premium",
+    "features": [
+      { "name": "feature.planTraining" },
+      { "name": "feature.supportCall" },
+      { "name": "feature.videoConference" },
+      { "name": "feature.basicFollowUp" },
+      { "name": "feature.inPersonFollowUp" }
+    ]
+  }
+]

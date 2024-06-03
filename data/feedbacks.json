@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Carlos López",
+    "rating": 4,
+    "comment": "Buen servicio, lástima que no haya podido seguir por falta de tiempo. Los programas son completos y el soporte técnico es muy rápido."
+  },
+  {
+    "name": "Ana García",
+    "rating": 4.5,
+    "comment": "Muy bueno, aunque me gustaría que hubiera más horarios disponibles. Los ejercicios son efectivos y variados."
+  },
+  {
+    "name": "María Fernández",
+    "rating": 5,
+    "comment": "Me encanta este servicio, he visto resultados increíbles en poco tiempo. La plataforma es fácil de usar y los entrenadores son muy motivadores."
+  },
+  {
+    "name": "Pedro Sánchez",
+    "rating": 4.5,
+    "comment": "Los entrenamientos son excelentes y muy bien estructurados. A veces es difícil encontrar un horario que me venga bien, pero vale la pena."
+  },
+  {
+    "name": "Laura Gómez",
+    "rating": 4.5,
+    "comment": "Estoy muy satisfecha con el servicio. Los entrenadores son muy profesionales y siempre están dispuestos a ayudar."
+  },
+  {
+    "name": "Miguel Torres",
+    "rating": 5,
+    "comment": "Increíble plataforma, he mejorado mucho mi condición física. Los entrenadores son muy atentos y los ejercicios están muy bien."
+  },
+  {
+    "name": "Lucía Martínez",
+    "rating": 5,
+    "comment": "El mejor servicio de entrenamiento que he probado. Los resultados son visibles y la atención es personalizada."
+  },
+  {
+    "name": "Santiago Ruiz",
+    "rating": 4.5,
+    "comment": "Muy buen servicio, aunque a veces me cuesta encontrar horarios disponibles. Los entrenamientos son efectivos y adaptados a mi."
+  },
+  {
+    "name": "Isabel Ramírez",
+    "rating": 5,
+    "comment": "Excelente, he notado una gran mejoría en mi estado físico. La plataforma es muy intuitiva y los entrenadores son muy profesionales."
+  }
+]

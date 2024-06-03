@@ -1,0 +1,16 @@
+{
+  "contactanos.title": "Contáctanos",
+  "contactanos.description": "¡Gracias por visitar nuestra página de contacto!",
+  "contactanos.form.instructions": "Por favor, completa el siguiente formulario para ponerte en contacto con nosotros:",
+  "contactanos.form.name": "Nombre",
+  "contactanos.form.email": "Email",
+  "contactanos.form.message": "Mensaje",
+  "contactanos.form.submit": "Enviar",
+  "contactanos.info.title": "Información de Contacto",
+  "contactanos.info.address": "Dirección: P.º de la Estación, 44, 23008 Jaén, España",
+  "contactanos.info.phone": "Teléfono: +1 (234) 567-8901",
+  "contactanos.info.email": "Email: contacto@empresa.com",
+  "contactanos.social.facebook": "Facebook",
+  "contactanos.social.twitter": "Twitter",
+  "contactanos.social.instagram": "Instagram"
+}

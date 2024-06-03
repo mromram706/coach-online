@@ -1,0 +1,22 @@
+{
+  "login.title": "Login",
+  "login.email": "Email",
+  "login.password": "Password",
+  "login.submit": "Login with Email",
+  "login.google": "Login with Google",
+  "login.terms": "By clicking , you agree to our Terms and Conditions and Privacy Policy. We may send you email notifications about your account or related services.",
+  "login.invalidEmail": "Invalid email address",
+  "login.passwordMinLength": "Password must be at least 8 characters",
+  "register.title": "Register",
+  "register.name": "Name",
+  "register.email": "Email",
+  "register.password": "Password",
+  "register.submit": "Register",
+  "register.google": "Register with Google",
+  "register.nameRequired": "Name is required",
+  "register.emailRequired": "Email is required",
+  "register.invalidEmail": "Invalid email address",
+  "register.passwordRequired": "Password is required",
+  "register.passwordMinLength": "Password must be at least 8 characters",
+  "error.failedLogin": "Failed to log in"
+}

@@ -1,0 +1,10 @@
+﻿{
+  "navigation.home": "Home",
+  "navigation.about": "About Us",
+  "navigation.services": "Services",
+  "navigation.contact": "Contact Us",
+  "navigation.login": "Login",
+  "navigation.logout": "Logout",
+  "navigation.signup": "Sign Up",
+  "navigation.profile": "Profile"
+}

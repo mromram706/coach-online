@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "title": "index.featureHome.title1",
+    "description": "index.featureHome.description1",
+    "image": "/images/personalidez_coaching.webp",
+    "heigth": "400",
+    "width": "400"
+  },
+  {
+    "id": "2",
+    "title": "index.featureHome.title2",
+    "description": "index.featureHome.description2",
+    "image": "/images/group_session.webp",
+    "heigth": "400",
+    "width": "400"
+  },
+  {
+    "id": "3",
+    "title": "index.featureHome.title3",
+    "description": "index.featureHome.description3",
+    "image": "/images/online_resources.webp",
+    "heigth": "400",
+    "width": "400"
+  },
+  {
+    "id": "4",
+    "title": "index.featureHome.title4",
+    "description": "index.featureHome.description4",
+    "image": "/images/community-support.webp",
+    "heigth": "400",
+    "width": "400"
+  }
+]

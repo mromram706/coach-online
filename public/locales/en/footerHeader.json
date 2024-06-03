@@ -1,0 +1,11 @@
+﻿{
+  "header.registrationSuccess": "Registration successful!",
+  "footer.legal": "Legal",
+  "footer.privacyPolicy": "Privacy Policy",
+  "footer.termsOfService": "Terms of Service",
+  "footer.cookiesPolicy": "Cookies Policy",
+  "footer.contact": "Contact",
+  "footer.contactUs": "Contact Us",
+  "footer.followUs": "Follow Us",
+  "footer.coachOnline": "© {year} Coach Online. Created by Mar Romero."
+}
