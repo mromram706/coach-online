@@ -1,4 +1,3 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   images: {
@@ -7,6 +6,15 @@ const nextConfig = {
   },
   distDir: "out",
   output: "export",
+  experimental: {
+    outputFileTracingRoot: path.join(__dirname, "../../"),
+  },
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.fallback = { fs: false, path: false };
+    }
+    return config;
+  },
 };
 
 export default nextConfig;
