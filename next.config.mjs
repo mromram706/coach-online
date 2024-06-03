@@ -1,3 +1,7 @@
+// Importa el módulo 'path' al principio del archivo
+import path from "path";
+
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   images: {
@@ -7,7 +11,7 @@ const nextConfig = {
   distDir: "out",
   output: "export",
   experimental: {
-    outputFileTracingRoot: path.join(__dirname, "../../"),
+    outputFileTracingRoot: __dirname,
   },
   webpack: (config, { isServer }) => {
     if (!isServer) {
