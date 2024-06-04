@@ -2,12 +2,12 @@
   "name": "functions",
   "scripts": {
     "lint": "eslint --ext .js,.ts .",
-    "build": "tsc",
+    "build": "tsc && npx cpy-cli ../.next/** .next --parents",
     "build:watch": "tsc --watch",
     "serve": "npm run build && firebase emulators:start --only functions",
     "shell": "npm run build && firebase functions:shell",
     "start": "npm run shell",
-    "deploy": "firebase deploy --only functions,hosting",
+    "deploy": "npm run build && firebase deploy --only functions,hosting",
     "logs": "firebase functions:log"
   },
   "engines": {

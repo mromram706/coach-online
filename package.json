@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "install:all": "npm install && cd functions && npm install && cd ..",
-    "clean": "npx rimraf node_modules package-lock.json .next && cd functions && npx rimraf node_modules package-lock.json .next && cd ..",
+    "clean": "npx rimraf node_modules package-lock.json .next && cd functions && npx rimraf node_modules package-lock.json lib && cd ..",
     "build": "next build && npx cpy-cli .next/** functions/.next --parents",
     "build:watch": "tsc --watch",
     "dev": "next dev",

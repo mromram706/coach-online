@@ -24,13 +24,17 @@ jobs:
         run: npm ci
 
       - name: Install Dependencies in Functions
-        run: cd functions && npm ci
+        run: cd functions && npm ci && cd ..
 
       - name: Build Project
         run: npm run build
 
-      - name: Build Functions
-        run: cd functions && npm run build
+      - name: List Contents of .next and functions/.next (Debugging Step)
+        run: |
+          echo "Listing contents of .next"
+          ls -R .next
+          echo "Listing contents of functions/.next"
+          ls -R functions/.next
 
       - name: Install Firebase CLI
         run: npm install -g firebase-tools
