@@ -1,0 +1,53 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "plugin:@stylistic/recommended-extends",
+    "plugin:@next/eslint-plugin-next/recommended",
+    "plugin:react/recommended",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "@stylistic/quotes": ["error", "double"],
+    "@stylistic/semi": ["error", "always"],
+    "@stylistic/arrow-parens": "off",
+    "@stylistic/member-delimiter-style": [
+      "error",
+      {
+        "multiline": {
+          "delimiter": "semi",
+          "requireLast": true
+        },
+        "singleline": {
+          "delimiter": "semi",
+          "requireLast": false
+        }
+      }
+    ],
+    "@stylistic/brace-style": ["error", "1tbs"],
+    "@stylistic/quote-props": ["error", "as-needed"],
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off",
+    "react/prop-types": "off",
+    "@stylistic/operator-linebreak": ["off"],
+    "@stylistic/multiline-ternary": ["off"],
+    "@stylistic/indent": ["off"],
+    "@stylistic/jsx-one-expression-per-line": ["off"]
+  }
+}
