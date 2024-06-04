@@ -29,10 +29,13 @@ jobs:
       - name: Build Project
         run: npm run build
 
+      - name: Build Functions
+        run: cd functions && npm run build
+
       - name: Install Firebase CLI
         run: npm install -g firebase-tools
 
-      - name: Deploy to Firebase Hosting Preview Channel
+      - name: Deploy to Firebase Functions and Hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         run: firebase deploy --only functions,hosting --token $FIREBASE_TOKEN
