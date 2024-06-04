@@ -26,8 +26,11 @@ jobs:
       - name: Install Dependencies in Functions
         run: cd functions && npm ci && cd ..
 
-      - name: Build Project
+      - name: Build Next.js and Copy .next to Functions
         run: npm run build
+
+      - name: Build Functions
+        run: cd functions && npm run build && cd ..
 
       - name: List Contents of .next and functions/.next (Debugging Step)
         run: |
