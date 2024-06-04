@@ -1,5 +1,5 @@
-const fs = require("fs");
-const path = require("path");
+import fs from "fs";
+import path from "path";
 
 // Lista de directorios y archivos a ignorar
 const ignoredItems = [
@@ -14,11 +14,21 @@ const ignoredItems = [
   "out",
   "yarn.lock",
   "package-lock.json",
+  "firebase-debug.log",
+  "firestore-debug.log",
+  "ui-debug.log",
 ];
 
 function generateTree(dir, depth = 0) {
   const indent = " ".repeat(depth * 2);
-  const items = fs.readdirSync(dir);
+  let items;
+
+  try {
+    items = fs.readdirSync(dir);
+  } catch (error) {
+    console.error(`Error reading directory ${dir}: ${error.message}`);
+    return;
+  }
 
   for (const item of items) {
     const fullPath = path.join(dir, item);
@@ -31,7 +41,15 @@ function generateTree(dir, depth = 0) {
     // Imprimir el nombre del archivo o directorio
     console.log(`${indent}${item}`);
 
-    if (fs.statSync(fullPath).isDirectory()) {
+    let stats;
+    try {
+      stats = fs.statSync(fullPath);
+    } catch (error) {
+      console.error(`Error stating file ${fullPath}: ${error.message}`);
+      continue;
+    }
+
+    if (stats.isDirectory()) {
       generateTree(fullPath, depth + 1);
     }
   }

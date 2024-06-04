@@ -12,6 +12,7 @@
 # next.js
 /.next/
 /out/
+functions/.next/
 
 # production
 /build
@@ -26,6 +27,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+.env*
 .env*.local
 
 # vercel
@@ -34,3 +36,38 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Firebase
+.firebase
+
+# Firebase Hosting cache files
+hosting.b3V0.cache
+hosting.cHVibGlj.cache
+hosting.Lm5leHQ.cache
+
+# Linter and Formatter
+.eslintignore
+.eslintrc.json
+.prettierrc
+
+# Project specific
+arbol_proyecto.txt
+cors.json
+data/
+generateTree.js
+next.config.mjs
+README.md
+tsconfig.json
+
+# Public assets
+public/images/
+public/locales/
+
+# Source files
+src/
+pages/
+public/next.svg
+public/vercel.svg
+
+# Temporary files
+*.log
