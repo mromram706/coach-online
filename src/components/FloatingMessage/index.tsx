@@ -7,7 +7,6 @@ type FloatingMessageProps = {
   onClick: () => void;
 };
 
-// Componente FloatingMessage
 const FloatingMessage: React.FC<FloatingMessageProps> = ({ onClick }) => {
   const intl = useIntl();
 

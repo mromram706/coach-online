@@ -19,8 +19,7 @@ const ignoredItems = [
   "ui-debug.log",
 ];
 
-function generateTree(dir, depth = 0) {
-  const indent = " ".repeat(depth * 2);
+function generateTree(dir, prefix = "") {
   let items;
 
   try {
@@ -30,29 +29,28 @@ function generateTree(dir, depth = 0) {
     return;
   }
 
-  for (const item of items) {
+  const filteredItems = items.filter((item) => !ignoredItems.includes(item));
+
+  filteredItems.forEach((item, index) => {
     const fullPath = path.join(dir, item);
-
-    // Ignorar directorios y archivos especificados
-    if (ignoredItems.includes(item)) {
-      continue;
-    }
-
-    // Imprimir el nombre del archivo o directorio
-    console.log(`${indent}${item}`);
+    const isLast = index === filteredItems.length - 1;
+    const connector = isLast ? "\\-- " : "|-- ";
+    const newPrefix = prefix + (isLast ? "    " : "|   ");
 
     let stats;
     try {
       stats = fs.statSync(fullPath);
     } catch (error) {
       console.error(`Error stating file ${fullPath}: ${error.message}`);
-      continue;
+      return;
     }
 
+    console.log(prefix + connector + item);
+
     if (stats.isDirectory()) {
-      generateTree(fullPath, depth + 1);
+      generateTree(fullPath, newPrefix);
     }
-  }
+  });
 }
 
 generateTree("./");

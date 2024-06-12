@@ -16,7 +16,6 @@
     "logs": "firebase functions:log",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "format": "prettier --write \"*/**/*.{js,jsx,ts,tsx,json,css,md}\""
-  
   },
   "engines": {
     "node": ">=18"
